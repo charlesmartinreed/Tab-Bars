@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1EP-YB-RWV">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Awl-zz-FXY">
+            <objects>
+                <viewController id="7Ep-zP-rNi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4JW-ER-Lw4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOR-iC-vc2">
+                                <rect key="frame" x="107" y="423" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BlN-QP-RRX"/>
+                                    <constraint firstAttribute="width" constant="200" id="KSc-uw-iby"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="54L-K0-Zcy" kind="show" id="2UP-ZJ-w7a"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xOR-iC-vc2" firstAttribute="centerX" secondItem="4JW-ER-Lw4" secondAttribute="centerX" id="gAE-30-02U"/>
+                            <constraint firstItem="xOR-iC-vc2" firstAttribute="centerY" secondItem="4JW-ER-Lw4" secondAttribute="centerY" id="lqM-uM-JOq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="afq-su-wcN"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gd0-Pd-S4j"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3g8-5l-hiW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1762" y="-311"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XSb-X6-kZ9">
+            <objects>
+                <viewController id="54L-K0-Zcy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q1a-8Y-QgD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfr-xE-m0j">
+                                <rect key="frame" x="82" y="423" width="250" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="5JI-eY-2Jb"/>
+                                    <constraint firstAttribute="height" constant="50" id="UOr-xR-xqg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <state key="normal" title="NEXT PAGE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fgL-rL-1tp" kind="show" id="ZsC-Cd-Ve5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.28318953429999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mfr-xE-m0j" firstAttribute="centerY" secondItem="Q1a-8Y-QgD" secondAttribute="centerY" id="0KW-xD-2Qu"/>
+                            <constraint firstItem="mfr-xE-m0j" firstAttribute="centerX" secondItem="Q1a-8Y-QgD" secondAttribute="centerX" id="iRQ-fN-naW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SDh-5f-qga"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uDr-MU-Cie" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2584" y="-309"/>
+        </scene>
+        <!--ChartsDetailed-->
+        <scene sceneID="jMy-ab-mv3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ChartsDetailed" id="fgL-rL-1tp" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="loQ-KJ-vde" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3135" y="-379"/>
+        </scene>
+        <!--Charts-->
+        <scene sceneID="Blz-Cq-Jfe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1EP-YB-RWV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Charts" image="icons8-area-chart-50 (1)" id="NRE-oO-YSa"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="11M-dh-Knw">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7Ep-zP-rNi" kind="relationship" relationship="rootViewController" id="KU9-af-YeK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9XO-qp-Kgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="975" y="-311"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-area-chart-50 (1)" width="37.5" height="37.5"/>
+    </resources>
+</document>

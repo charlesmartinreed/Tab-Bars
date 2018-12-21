@@ -11,6 +11,11 @@
 		8CCF64E421CC565900478FF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCF64E221CC565900478FF5 /* Main.storyboard */; };
 		8CCF64E621CC565B00478FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCF64E521CC565B00478FF5 /* Assets.xcassets */; };
 		8CCF64E921CC565B00478FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCF64E721CC565B00478FF5 /* LaunchScreen.storyboard */; };
+		8CCF64F221CC5D6B00478FF5 /* Charts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCF64F121CC5D6B00478FF5 /* Charts.storyboard */; };
+		8CCF64F421CC5D8A00478FF5 /* Notifications.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCF64F321CC5D8A00478FF5 /* Notifications.storyboard */; };
+		8CCF64F621CC5D9C00478FF5 /* Finances.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCF64F521CC5D9C00478FF5 /* Finances.storyboard */; };
+		8CCF64F821CC5DA400478FF5 /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCF64F721CC5DA400478FF5 /* Favorites.storyboard */; };
+		8CCF64FA21CC635C00478FF5 /* ChartsDetailed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCF64F921CC635C00478FF5 /* ChartsDetailed.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		8CCF64E521CC565B00478FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CCF64E821CC565B00478FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CCF64EA21CC565B00478FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CCF64F121CC5D6B00478FF5 /* Charts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Charts.storyboard; sourceTree = "<group>"; };
+		8CCF64F321CC5D8A00478FF5 /* Notifications.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notifications.storyboard; sourceTree = "<group>"; };
+		8CCF64F521CC5D9C00478FF5 /* Finances.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Finances.storyboard; sourceTree = "<group>"; };
+		8CCF64F721CC5DA400478FF5 /* Favorites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
+		8CCF64F921CC635C00478FF5 /* ChartsDetailed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChartsDetailed.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +62,26 @@
 		8CCF64DD21CC565900478FF5 /* Tab Bars */ = {
 			isa = PBXGroup;
 			children = (
+				8CCF64F021CC5D4000478FF5 /* Storyboards */,
 				8CCF64DE21CC565900478FF5 /* AppDelegate.swift */,
-				8CCF64E221CC565900478FF5 /* Main.storyboard */,
 				8CCF64E521CC565B00478FF5 /* Assets.xcassets */,
 				8CCF64E721CC565B00478FF5 /* LaunchScreen.storyboard */,
 				8CCF64EA21CC565B00478FF5 /* Info.plist */,
 			);
 			path = "Tab Bars";
+			sourceTree = "<group>";
+		};
+		8CCF64F021CC5D4000478FF5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8CCF64E221CC565900478FF5 /* Main.storyboard */,
+				8CCF64F321CC5D8A00478FF5 /* Notifications.storyboard */,
+				8CCF64F721CC5DA400478FF5 /* Favorites.storyboard */,
+				8CCF64F521CC5D9C00478FF5 /* Finances.storyboard */,
+				8CCF64F121CC5D6B00478FF5 /* Charts.storyboard */,
+				8CCF64F921CC635C00478FF5 /* ChartsDetailed.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CCF64E921CC565B00478FF5 /* LaunchScreen.storyboard in Resources */,
+				8CCF64FA21CC635C00478FF5 /* ChartsDetailed.storyboard in Resources */,
+				8CCF64F621CC5D9C00478FF5 /* Finances.storyboard in Resources */,
+				8CCF64F421CC5D8A00478FF5 /* Notifications.storyboard in Resources */,
+				8CCF64F221CC5D6B00478FF5 /* Charts.storyboard in Resources */,
+				8CCF64F821CC5DA400478FF5 /* Favorites.storyboard in Resources */,
 				8CCF64E621CC565B00478FF5 /* Assets.xcassets in Resources */,
 				8CCF64E421CC565900478FF5 /* Main.storyboard in Resources */,
 			);
